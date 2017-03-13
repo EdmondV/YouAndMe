@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inputs.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <!--<link rel="" href="send.php">-->
+</head>
+<body>
+<div class="container-fluid line-rainbow"></div>
+<div class="wrapper">
+    <div class="header">
+        <div class="hed">
+            <img src="bb_final-5-1.JPG" class="logo">
+        </div>
+        <div class="hed">
+            <img src="source/clock104.png" class="clock104"><p class="day"> <strong>9:00-18:00</strong><br>
+            <p class="days">Пн-Пт</p class="days">
+            </p>
+            <p><img src="source/pin67.png" class="pin67"><strong>г. Челябинск, Харлова, 3</strong></p>
+        </div>
+        <div class="hed">
+            <p>+7 (351) 270 95 95</p>
+            <p class="call"><a href="#">Заказать звонок</a></p>
+        </div>
+    </div>
+    <div class="rainbow3"></div>
+
+    <div class="navbar">
+            <ul class="nav">
+                <li><a href="#ser" class="navbar-nav-a">Услуги</a></li>
+                <li><a href="" class="navbar-nav-a">Цены</a></li>
+                <li><a href="#seil" class="navbar-nav-a">Акции</a></li>
+                <li><a href="" class="navbar-nav-a">Отзывы</a></li>
+                <li><a href="#cl" class="navbar-nav-a">О нас</a></li>
+        </ul>
+        <button type="button" class="btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+    </div>
+    <div class="plus">
+    <div class="pop">
+        <div class="service">
+            <h4>Популярные услуги:</h4>
+            <ul class="services">
+            <li>
+                <p class="circle"></p>
+                <p>Профилактичекий осмотр женщин</p>
+            </li>
+            <li>
+                <p class="circle"></p>
+                <p>Нежеланная беременность</p>
+            </li>
+            <li>
+                <p class="circle"></p>
+                <p>Ведение беременности</p>
+            </li>
+            <li>
+                <p class="circle"></p>
+                        <!--<img src="" id="circle">-->
+                <p>Ультрозвуковое исследование(УЗИ)</p>
+            </li>
+            </ul>
+        </div>
+        <div class="que-block">
+                <h4>Популярные вопросы:</h4>
+                <div class="question-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium exercitationem modi cupiditate tempora quaerat! Sed corrupti sit maiores consequuntur perferendis animi eligendi aliquid, at nemo nostrum sint sequi sapiente nulla.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci, perspiciatis esse et. Blanditiis odit quas minima architecto officia, accusamus tempora! Rerum dolorem deserunt odio fugit, sed molestiae! Cum, molestiae!
+                </div>
+                <div class="que-text-block">
+                    <div class="question que-text1">Ксения, 27 лет.</div>
+                    <div class="answer que-text2"><a href="">Следующий>></a></div>
+                    <div class="next que-text2"><a href="">Читать Все ответы.</a></div>
+                </div>                
+        </div>
+    </div>
+    <div class="form-pr">
+        <div class="form-zp">
+            <p>Записаться на приём <img src="source/document295.png" class="document295"></p>
+            <form role="form form1">
+                <div class="form-group">
+                    <label for="first-form-name">Ваше имя:</label>
+                    <input type="text" class="form-control" id="first-form-name">
+                </div>
+                <div class="form-group">
+                    <label for="first-form-email">Ваш E-mail:</label>
+                    <input type="email" class="form-control" id="first-form-email">
+                </div>
+                <div class="form-group">
+                    <label for="first-form-num">Ваш телефон:</label>
+                    <input type="tel" class="form-control" id="first-form-num">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-pz btn-default">Записаться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <div class="person">
+        <div class="per1">
+            <img src="source/surgeon1.png" alt="" class="surgeon">
+            <div class="vper">Высококвалифицированный персонал</div>
+            <div class="age">Средний стаж: 8 лет.</div>
+        </div>
+        <div class="per1">
+            <img src="source/surgeon1.png" alt="" class="surgeon">
+            <div class="vper">Высококвалифицированный персонал</div>
+            <div class="age">Средний стаж: 8 лет.</div>
+        </div>
+        <div class="per1">
+            <img src="source/surgeon1.png" alt="" class="surgeon">
+            <div class="vper">Высококвалифицированный персонал</div>
+            <div class="age">Средний стаж: 8 лет.</div>
+        </div>
+    </div>
+</div>
+<p><a name="ser"></a></p>  
+<div class="wrapper2">
+    <div class="sec-con">
+        <div class="top-line">
+            <img src="source/red1.png" class="red1">
+            <p class="bbb">Услуги</p>
+        </div>
+    </div>
+
+    <div class="sec-menu">
+    
+            <ul class="topmenu">
+                <li><button class="box-script" onclick="openbox('#box');">Акушерство и гинеклогия</button></li>
+                <li><button class="box-script" onclick="openbox('#box1');">Ультразвуковая диагностика</button></li>
+                <li><button class="box-script" onclick="openbox('#box2');">Обследование сердца и сосудов</button></li>
+                <li><button class="box-script" onclick="openbox('#box3');">Неврология</button></li>
+                <li><button class="box-script" onclick="openbox('#box4');">Педиатрия</button></li>
+                <li><button class="box-script" onclick="openbox('#box5');">Терапия</button></li>
+                <li><button class="box-script" onclick="openbox('#box6');">Эндокринология</button></li>
+                <li><button class="box-script" onclick="openbox('#box7');">Прочее</button></li>
+            </ul>
+    
+        <div class="sec-boxs">  
+        <div class="vboxs" id="box">
+            <div class="att">
+                <div class="att-hed">
+                    <img src="source/male119.png" class="male119">
+                    <span>Акушерство и гинеклогия</span>
+                </div>
+                <div class="att-con">
+                    <p class="att-circle">
+                    </p><img src="source/surgeon1.png" class="att-surgeon1">
+                    <div class="att-text">
+                        <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                        <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                        <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                    </div>
+                </div>
+                <div class="att-fut">
+                    <button type="button" class="att-btn-wr"> <p><img src="source/nurse7.png" class="nurse7">Интернет приемная</p></button>
+                    <div><p>- или -</p></div>
+                    <button type="button" class="att-btn-wr"> <p><img src="source/health care15.png" class="health-care15">Интернет приемная</p></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="boxs" id="box1">
+        <div class="att">
+            <div class="att-hed">
+                <img src="source/male119.png" class="male119">
+                <span>Ультразвуковая Диагностика(УЗИ)</span>
+            </div>
+            <div class="att-con">
+                <p class="att-circle">
+                </p><img src="source/surgeon1.png" class="att-surgeon1">
+                <div class="att-text">
+                    <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                    <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                    <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                </div>
+            </div>
+            <div class="att-fut">
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+                <div><p>-или-</p></div>
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+            </div>
+        </div>           
+        </div>
+
+        <div class="boxs" id="box2">
+        <div class="att">
+            <div class="att-hed">
+                <img src="source/male119.png" class="male119">
+                <span>Обследование сердца и сосудов</span>
+            </div>
+            <div class="att-con">
+                <p class="att-circle">
+                </p><img src="source/surgeon1.png" class="att-surgeon1">
+                <div class="att-text">
+                    <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                    <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                    <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                </div>
+            </div>
+            <div class="att-fut">
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+                <div><p>-или-</p></div>
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+            </div>
+        </div> 
+        </div>
+
+        <div class="boxs" id="box3">
+        <div class="att">
+            <div class="att-hed">
+                <img src="source/male119.png" class="male119">
+                <span>Неврология</span>
+            </div>
+            <div class="att-con">
+                <p class="att-circle">
+                </p><img src="source/surgeon1.png" class="att-surgeon1">
+                <div class="att-text">
+                    <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                    <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                    <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                </div>
+            </div>
+            <div class="att-fut">
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+                <div><p>-или-</p></div>
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+            </div>
+        </div>             
+        </div>
+        <div class="boxs" id="box4">
+        <div class="att">
+            <div class="att-hed">
+                <img src="source/male119.png" class="male119">
+                <span>Педиатрия</span>
+            </div>
+            <div class="att-con">
+                <p class="att-circle">
+                </p><img src="source/surgeon1.png" class="att-surgeon1">
+                <div class="att-text">
+                    <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                    <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                    <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                </div>
+            </div>
+            <div class="att-fut">
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+                <div><p>-или-</p></div>
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+            </div>
+        </div>             
+        </div>
+        <div class="boxs" id="box5">
+        <div class="att">
+            <div class="att-hed">
+                <img src="source/male119.png" class="male119">
+                <span>Терапия</span>
+            </div>
+            <div class="att-con">
+                <p class="att-circle">
+                </p><img src="source/surgeon1.png" class="att-surgeon1">
+                <div class="att-text">
+                    <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                    <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                    <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                </div>
+            </div>
+            <div class="att-fut">
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+                <div><p>-или-</p></div>
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+            </div>
+        </div> 
+        </div>
+        <div class="boxs" id="box6">
+        <div class="att">
+            <div class="att-hed">
+                <img src="source/male119.png" class="male119">
+                <span>Эндокринология</span>
+            </div>
+            <div class="att-con">
+                <p class="att-circle">
+                </p><img src="source/surgeon1.png" class="att-surgeon1">
+                <div class="att-text">
+                    <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                    <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                    <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                </div>
+            </div>
+            <div class="att-fut">
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+                <div><p>-или-</p></div>
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+            </div>
+        </div> 
+        </div>
+
+        <div class="boxs" id="box7">
+        <div class="att">
+            <div class="att-hed">
+                <img src="source/male119.png" class="male119">
+                <span>Прочее</span>
+            </div>
+            <div class="att-con">
+                <p class="att-circle">
+                </p><img src="source/surgeon1.png" class="att-surgeon1">
+                <div class="att-text">
+                    <h3 class="treat">Лечащий врачь:<a class="treat-name">Иванов Иван Иванович</a></h3>
+                    <p class="treat-rec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus commodi iure rerum rem ducimus, tenetur sint eaque ex magni similique ad quis qui saepe asperiores aliquid.</p>
+                    <p class="treat-exp">Врачебный стаж: 12 лет</p>
+                </div>
+            </div>
+            <div class="att-fut">
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+                <div><p>-или-</p></div>
+                <button type="button" class="att-btn-wr"> <p><img src="source/woman128.png" class="woman">Интернет приемная</p></button>
+            </div>
+        </div> 
+        </div>
+        </div>
+    </div>
+</div>
+
+            
+     
+<p><a name="seil"></a></p>  
+    <div class="wrapper3">
+        <img src="doctor12.png" class="doctor13">        
+        <div class="wr-form">
+        <div class="wr-top-text"><p>Заголовок акции по 4U методологии.</p></div>
+        <div class="wr-sale"><p>Описание акции:<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci enim mollitia ullam illo velit ipsa magni nobis facilis soluta recusandae repudiandae odit reprehenderit voluptates, ea iusto! Aspernatur, odio nesciunt sed.</p></div>
+
+        <div class="wr-form-pr">
+            <div class="wr-form-zp">
+                <p>Заголовок формы</p>
+                <form class="form1" method="post" id="form">
+                    <div class="wr-form-group">
+                        <label for="first-form-name">Ваше имя:</label>
+                        <input name="name"  type="text" class="wr-form-control" id="first-form-name" placeholder="" required>
+                     </div>
+                    <div class="wr-form-group">
+                        <label for="first-form-email">Ваш E-mail:</label>
+                        <input name="email"  type="email" class="wr-form-control" id="first-form-email" placeholder="" required>
+                    </div>
+                    <div class="wr-form-group">
+                        <label for="first-form-num">Ваш телефон:</label>
+                        <input name="phone"  type="tel" class="wr-form-control" id="first-form-num" placeholder="" required>
+                    </div>
+                    
+                        <button class="wr-btn-default">Отправить</button>
+                    
+                </form>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+    <div class="wrapper4">
+        <div class="for-con-top">
+            <div class="top-line4">
+                <img src="source/notebook114.png" class="notebook114">
+                <p class="bbb">Контакты</p>
+            </div>
+        </div>
+        
+        <div class="for-con-mid">
+            <div class="service4">
+                <ul class="services4">
+                <li>
+                    <h3>Адрес:</h3>
+                    <p>Дом 3, ул.Харлова, г.Челябинск</p>
+                </li>
+                <li>
+                    <h3>Телефон:</h3>
+                    <p>+7(351)270 95 95</p>
+                </li>
+                <li>
+                    <h3>Время работы:</h3>
+                    <p>Будние дни: 9:00 - 19:00</p><br>
+                    <p>Суббота: 9:00 - 14:00</p><br>
+                    <p class="s4-red">Воскресенье: Выходной</p>
+                </li>
+                <li>
+                    <h3>@Почта:</h3>
+                    <p><a href="https://info@medcenter74.ru">info@medcenter74.ru</a><p/p>
+                </li>
+                </ul>
+            </div>
+        </div>
+
+           <div class="for-con-mid2">
+            <div class="mid2-line">
+                <img src="source/documents1.png" class="documents1">
+                <p class="bbb">Общее положения</p>
+            </div>
+            </div>
+            <div class="mid2-doc">
+                <div class="docum doc1">
+                    <a href="">Сертификаты</a>
+                </div>
+                <div class="docum doc1">
+                    <a href="">Лицензии</a>
+                </div>
+                <div class="docum doc2">
+                    <a href="">Политика конфиденциальности</a>
+                </div>
+            </div>
+
+            <div class="rainbow4"></div>
+
+            <div class="footer">
+                <div class="footer-text1">
+                    <p>"ТЫ И Я"<br><a href="">Медецинский центр</a></p><br>
+                    <span>2003 - 2017. г.Челябинск</span>
+                </div>
+                <div class="footer-text2">
+                    <p><a href="">Создание сайта</a><br>Евгений Назаров</p>
+                </div>
+            </div>
+        <p><a name="cl"></a></p>  
+    </div>
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+<script src="common.js"></script>
+<script src="jqscrpt.js"></script>
+</body>
+</html>
